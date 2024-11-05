@@ -60,7 +60,7 @@ body {
     border-radius: 0.5em;
     margin-bottom: 1em;
     display: flex;
-    align-items: center;
+    flex-direction: column;
 }
 
 .botao-secundario {
@@ -72,12 +72,81 @@ body {
     color: var(--ftc-txt);
 }
 
-a {
-    text-align: center;
+.secundario {
+    align-items: center;
 }
 
-div {
+.img-secundaria {
+    margin: 0 15em;
+}
+
+.container-caixa {
+    margin: 0 7.5em;
+}
+
+.container-caixa-titulo {
+    color: var(--ftc-ttl);
+    font-family: var(--ftfml);
+    font-size: var(--ftsz-ttl);
+}
+
+.container-caixa-texto {
+    color: var(--ftc-txt);
+    font-family: var(--ftfml);
+    font-size: var(--ftsz-txt);
+}
+
+.container-caixa-botao {
+    text-decoration: none;
+    margin-top: 2em;
+    background-color: var(--btn-bgc);
+    color: var(--ftc-ttl);
+}
+
+.dispositivos {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+}
+
+.dispositivos-lista {
+    list-style-type: none;
+    display: flex;
     text-align: center;
+    margin-top: 3em;
+}
+
+.dispositivo {
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 9em 7.5em 6.25em 7.5em;
+}
+
+.alura-logo {
+    width: 102px;
+    height: 35.28px;
+}
+
+.links {
+    display: flex;
     justify-content: center;
+    margin-top: 3em;
+}
+
+.link {
+    text-decoration: none;
+    margin-left: 1em;
+    color: var(--ftc-ttl);
+}
+
+.rodape-texto {
+    margin-top: 1.5em;
+    color: var(--ftc-txt);
 }
