@@ -1,0 +1,152 @@
+:root {
+    --bgc: #00030C;
+    --ftc-ttl: #FFFFFF;
+    --ftc-txt: #C0C0C0;
+    --btn-bgc: #167BF7;
+    --ftfml: 'Inter';
+    --ftsz-ttl: 3em;
+    --ftsz-txt: 1em;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bgc);
+    color: var(--ftc-ttl);
+    font-family: var(--ftfml);
+}
+
+.principal {
+    background-image: url(Background.png);
+    text-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+}
+
+.caixa {
+    margin: 0 6em;
+    gap: 10px;
+}
+
+.container-titulo {
+    font-size: 28px;
+    font-family: var(--ftfml);
+}
+
+.container-imagem {
+    margin: 2em 0 3em 0;
+}
+
+.container-botao {
+    font-size: var(--ftsz-txt);
+    font-family: var(--ftsz-txt);
+    color: var(--ftc-ttl);
+    background-color: var(--btn-bgc);
+    text-decoration: none;
+    padding: 1em 0;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.botao-secundario {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.aviso {
+    color: var(--ftc-txt);
+}
+
+.secundario {
+    align-items: center;
+}
+
+.img-secundaria {
+    margin: 0 15em;
+}
+
+.container-caixa {
+    margin: 0 7.5em;
+}
+
+.container-caixa-titulo {
+    color: var(--ftc-ttl);
+    font-family: var(--ftfml);
+    font-size: var(--ftsz-ttl);
+}
+
+.container-caixa-texto {
+    color: var(--ftc-txt);
+    font-family: var(--ftfml);
+    font-size: var(--ftsz-txt);
+}
+
+.container-caixa-botao {
+    text-decoration: none;
+    margin-top: 2em;
+    background-color: var(--btn-bgc);
+    color: var(--ftc-ttl);
+}
+
+.dispositivos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dispositivos-lista {
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    margin-top: 3em;
+}
+
+.dispositivo {
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 9em 7.5em 6.25em 7.5em;
+}
+
+.alura-logo {
+    width: 102px;
+    height: 35.28px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.link {
+    text-decoration: none;
+    margin-left: 1em;
+    color: var(--ftc-ttl);
+}
+
+.rodape-texto {
+    margin-top: 1.5em;
+    color: var(--ftc-txt);
+}
